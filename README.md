@@ -1,8 +1,12 @@
 # 🧠 Psychological Chatbot - Depression Level Identifier
 
 This is an AI-powered psychological chatbot that interacts with users in natural conversation to assess and classify their **stress or depression levels** across 3 stages:  
-✅ No Depression, ⚠️ Mild/Moderate Depression, and 🚨 Severe Depression.
 
+- ✅ No Depression  
+- ⚠️ Mild Depression  
+- ⚠️ Moderate Depression  
+- 🚨 Severe Depression
+  
 It uses **OpenAI's GPT-4** via the `langchain` framework to intelligently analyze user responses and provide empathetic, non-clinical feedback based on their emotional state.
 
 ---
@@ -25,3 +29,17 @@ It uses **OpenAI's GPT-4** via the `langchain` framework to intelligently analyz
 - Virtual Environment (`venv`)
 
 ---
+## 🧪 Example Chat
+
+Mental Health Assistant: Hello! How are you feeling today?
+
+You: I feel exhausted and don't enjoy anything anymore.
+
+Mental Health Assistant: Based on your message, your depression level is - Moderate depression
+
+---
+### ⚠️ Ethical Disclaimer
+
+This chatbot is not a substitute for professional mental health care.
+It is intended for educational and awareness purposes only.
+If you or someone you know is experiencing severe emotional distress, seek help from a qualified mental health professional.
