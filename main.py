@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.messages import SystemMessage, HumanMessage
 
 # Set your OpenAI API key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "sk-project-API-key"
 
 # Initialize ChatOpenAI model
 chat_model = ChatOpenAI(model_name="gpt-4", temperature=0.3)
